@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://shadoshado.github.io/half-billion-premium-facial-tissues/sitemap.xml

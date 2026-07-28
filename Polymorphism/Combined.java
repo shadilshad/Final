@@ -1,24 +1,27 @@
 package Polymorphism;
 
-    class sample1{
+class sample1{
     void set(){
         System.out.println("This set is empty!");
     }
 }
-public class Combined {
-
+class Sample2 extends sample1{
+   
     // method overloading
     static void value(int id, String name){
-        System.out.println("The given person's name is: " + name + " and ID is "+ id);
+        System.out.println("The ID: " + id + " person named is "+ name);
     }
     static void value(){
         System.out.println("The person hasnt filled any information yet!");
-    }
+    }}
+public class Combined {
 
     public static void main(String[] args) {
-        value(2, "Someone");
+    Sample2 s2= new Sample2();
+    s2.value(); // without parameter
+    s2.value(2,"Mayamad");
     }
     
 }
 
-}
+
