@@ -35,7 +35,7 @@ public class DoublyCircularLinkedList {
     }
 
     public void insertBeginning(int data) {
-        Node newNode = new Node(data);
+        Node newNode = new Node(data); 
 
         if (head == null) {
             head = tail = newNode;
